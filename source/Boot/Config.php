@@ -11,7 +11,7 @@ define("CONF_DB_NAME", "fullstackphp");
  * PROJECT URLs
  */
 define("CONF_URL_BASE", "https://www.cafecontrol.com.br");
-define("CONF_URL_TEST", "https://www.localhost/fsphp");
+define("CONF_URL_TEST", "http://www.localhost/fsphp");
 define("CONF_URL_ADMIN", "/admin");
 
 /**
@@ -64,7 +64,7 @@ define("CONF_MESSAGE_ERROR", "error");
  */
 define("CONF_VIEW_PATH", __DIR__ . "/../../shared/views");
 define("CONF_VIEW_EXT", "php");
-define("CONF_VIEW_THEME", "cafecontrol");
+define("CONF_VIEW_THEME", "cafeweb");
 
 /**
  * UPLOAD
@@ -89,6 +89,7 @@ define("CONF_MAIL_PORT", "587");
 define("CONF_MAIL_USER", "contato@cooperelp.com.br");
 define("CONF_MAIL_PASS", "Cooperelp2020");
 define("CONF_MAIL_SENDER", ["name" => "Luiz Henrique", "address" => "luizhenriquedominguesr@gmail.com"]);
+define("CONF_MAIL_SUPPORT", "luizhenriquedominguesr@gmail.com");
 define("CONF_MAIL_OPTION_LANG", "br");
 define("CONF_MAIL_OPTION_HTML", true);
 define("CONF_MAIL_OPTION_AUTH", true);
