@@ -4,27 +4,27 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "a5022ef29b35f03d61a4e58ddd7428ce",
+    "content-hash": "81ff5e2843da8a9fe25b697e67c025f4",
     "packages": [
         {
             "name": "coffeecode/cropper",
-            "version": "1.3.4",
+            "version": "2.0.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/robsonvleite/cropper.git",
-                "reference": "4c98fa8601ad1dcb3d94a605e7bfa36b7ac5b87e"
+                "reference": "65475b540199b31f6a46eaed749211d3af8d9885"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/robsonvleite/cropper/zipball/4c98fa8601ad1dcb3d94a605e7bfa36b7ac5b87e",
-                "reference": "4c98fa8601ad1dcb3d94a605e7bfa36b7ac5b87e",
+                "url": "https://api.github.com/repos/robsonvleite/cropper/zipball/65475b540199b31f6a46eaed749211d3af8d9885",
+                "reference": "65475b540199b31f6a46eaed749211d3af8d9885",
                 "shasum": ""
             },
             "require": {
                 "ext-fileinfo": "*",
                 "ext-gd": "*",
                 "ext-mbstring": "*",
-                "php": ">=7.2",
+                "php": ">=8.0",
                 "rosell-dk/webp-convert": "2.5.0"
             },
             "type": "library",
@@ -45,7 +45,7 @@
                 }
             ],
             "description": "It is a easy and simple PHP image cropper and cache thumb manager",
-            "homepage": "http://www.upinside.com.br",
+            "homepage": "https://www.upinside.com.br",
             "keywords": [
                 "Coffeecode",
                 "image cache",
@@ -59,27 +59,27 @@
             ],
             "support": {
                 "issues": "https://github.com/robsonvleite/cropper/issues",
-                "source": "https://github.com/robsonvleite/cropper/tree/1.3.4"
+                "source": "https://github.com/robsonvleite/cropper/tree/2.0.4"
             },
-            "time": "2021-05-17T11:26:50+00:00"
+            "time": "2023-02-14T14:32:48+00:00"
         },
         {
             "name": "coffeecode/optimizer",
-            "version": "1.0.2",
+            "version": "2.1.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/robsonvleite/optimizer.git",
-                "reference": "23d3a65cc8210ce6febec4701a5108cdf8b4674b"
+                "reference": "c4c9e979a97e3ca46f2fd55c1aad53f707ddbead"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/robsonvleite/optimizer/zipball/23d3a65cc8210ce6febec4701a5108cdf8b4674b",
-                "reference": "23d3a65cc8210ce6febec4701a5108cdf8b4674b",
+                "url": "https://api.github.com/repos/robsonvleite/optimizer/zipball/c4c9e979a97e3ca46f2fd55c1aad53f707ddbead",
+                "reference": "c4c9e979a97e3ca46f2fd55c1aad53f707ddbead",
                 "shasum": ""
             },
             "require": {
                 "ext-simplexml": "*",
-                "php": "^7.2"
+                "php": ">=8.0"
             },
             "type": "library",
             "autoload": {
@@ -112,26 +112,26 @@
             ],
             "support": {
                 "issues": "https://github.com/robsonvleite/optimizer/issues",
-                "source": "https://github.com/robsonvleite/optimizer/tree/master"
+                "source": "https://github.com/robsonvleite/optimizer/tree/2.1.1"
             },
-            "time": "2019-03-12T14:37:11+00:00"
+            "time": "2022-04-07T14:43:46+00:00"
         },
         {
             "name": "coffeecode/paginator",
-            "version": "1.0.7",
+            "version": "2.0.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/robsonvleite/paginator.git",
-                "reference": "a6941246f7ccd842be2072d796d4fb448c22cdb1"
+                "reference": "719d7520a9e065d2ba4ac9a8b6ef26022c535b15"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/robsonvleite/paginator/zipball/a6941246f7ccd842be2072d796d4fb448c22cdb1",
-                "reference": "a6941246f7ccd842be2072d796d4fb448c22cdb1",
+                "url": "https://api.github.com/repos/robsonvleite/paginator/zipball/719d7520a9e065d2ba4ac9a8b6ef26022c535b15",
+                "reference": "719d7520a9e065d2ba4ac9a8b6ef26022c535b15",
                 "shasum": ""
             },
             "require": {
-                "php": ">=7.2"
+                "php": ">=8.0"
             },
             "type": "library",
             "autoload": {
@@ -160,26 +160,26 @@
             ],
             "support": {
                 "issues": "https://github.com/robsonvleite/paginator/issues",
-                "source": "https://github.com/robsonvleite/paginator/tree/1.0.7"
+                "source": "https://github.com/robsonvleite/paginator/tree/2.0.1"
             },
-            "time": "2021-03-21T17:57:29+00:00"
+            "time": "2022-04-07T00:53:02+00:00"
         },
         {
             "name": "coffeecode/router",
-            "version": "1.0.8",
+            "version": "2.0.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/robsonvleite/router.git",
-                "reference": "29f73e12351a116e9bbb3f695595777a09e18077"
+                "reference": "a16770ae952ce3f91a04035a09be610a030e049c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/robsonvleite/router/zipball/29f73e12351a116e9bbb3f695595777a09e18077",
-                "reference": "29f73e12351a116e9bbb3f695595777a09e18077",
+                "url": "https://api.github.com/repos/robsonvleite/router/zipball/a16770ae952ce3f91a04035a09be610a030e049c",
+                "reference": "a16770ae952ce3f91a04035a09be610a030e049c",
                 "shasum": ""
             },
             "require": {
-                "php": ">=7.2"
+                "php": ">=8.0"
             },
             "type": "library",
             "autoload": {
@@ -209,29 +209,29 @@
             ],
             "support": {
                 "issues": "https://github.com/robsonvleite/router/issues",
-                "source": "https://github.com/robsonvleite/router/tree/1.0.8"
+                "source": "https://github.com/robsonvleite/router/tree/2.0.2"
             },
-            "time": "2021-03-21T18:45:16+00:00"
+            "time": "2022-04-23T16:01:23+00:00"
         },
         {
             "name": "coffeecode/uploader",
-            "version": "1.0.11",
+            "version": "2.0.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/robsonvleite/uploader.git",
-                "reference": "182682c029ff23d28aa8f5d7db2db4c060fc3ae4"
+                "reference": "4601ff1665a4591087c524239c1e545ba4834453"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/robsonvleite/uploader/zipball/182682c029ff23d28aa8f5d7db2db4c060fc3ae4",
-                "reference": "182682c029ff23d28aa8f5d7db2db4c060fc3ae4",
+                "url": "https://api.github.com/repos/robsonvleite/uploader/zipball/4601ff1665a4591087c524239c1e545ba4834453",
+                "reference": "4601ff1665a4591087c524239c1e545ba4834453",
                 "shasum": ""
             },
             "require": {
                 "ext-exif": "*",
                 "ext-gd": "*",
                 "ext-mbstring": "*",
-                "php": ">=7.2"
+                "php": ">=8.0"
             },
             "type": "library",
             "autoload": {
@@ -267,54 +267,42 @@
             ],
             "support": {
                 "issues": "https://github.com/robsonvleite/uploader/issues",
-                "source": "https://github.com/robsonvleite/uploader/tree/1.0.11"
+                "source": "https://github.com/robsonvleite/uploader/tree/2.0.4"
             },
-            "time": "2021-03-21T18:57:41+00:00"
+            "time": "2023-02-14T14:29:20+00:00"
         },
         {
             "name": "league/plates",
-            "version": "v4.0.0-alpha",
+            "version": "v3.5.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/thephpleague/plates.git",
-                "reference": "f53f4c1fa4bf307d0f3858a348172ff4faf7669a"
+                "reference": "a6a3238e46c6e19af7318fdc36bfbe49b0620231"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/thephpleague/plates/zipball/f53f4c1fa4bf307d0f3858a348172ff4faf7669a",
-                "reference": "f53f4c1fa4bf307d0f3858a348172ff4faf7669a",
+                "url": "https://api.github.com/repos/thephpleague/plates/zipball/a6a3238e46c6e19af7318fdc36bfbe49b0620231",
+                "reference": "a6a3238e46c6e19af7318fdc36bfbe49b0620231",
                 "shasum": ""
             },
             "require": {
-                "php": "^7.0"
+                "php": "^7.0|^8.0"
             },
             "require-dev": {
-                "eloquent/phony-peridot": "^2.0",
-                "peridot-php/leo": "^1.6",
-                "peridot-php/peridot": "^1.19",
-                "peridot-php/peridot-code-coverage-reporters": "^3.0",
-                "squizlabs/php_codesniffer": "~1.5"
+                "mikey179/vfsstream": "^1.6",
+                "phpunit/phpunit": "^9.5",
+                "squizlabs/php_codesniffer": "^3.5"
             },
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "4.0-dev"
+                    "dev-master": "3.0-dev"
                 }
             },
             "autoload": {
                 "psr-4": {
                     "League\\Plates\\": "src"
-                },
-                "files": [
-                    "src/Template/match.php",
-                    "src/Extension/Data/data.php",
-                    "src/Extension/Path/path.php",
-                    "src/Extension/RenderContext/func.php",
-                    "src/Extension/RenderContext/render-context.php",
-                    "src/Extension/LayoutSections/layout-sections.php",
-                    "src/Extension/Folders/folders.php",
-                    "src/Util/util.php"
-                ]
+                }
             },
             "notification-url": "https://packagist.org/downloads/",
             "license": [
@@ -328,12 +316,12 @@
                 },
                 {
                     "name": "RJ Garcia",
-                    "email": "rj@bighead.net",
+                    "email": "ragboyjr@icloud.com",
                     "role": "Developer"
                 }
             ],
             "description": "Plates, the native PHP template system that's fast, easy to use and easy to extend.",
-            "homepage": "http://platesphp.com",
+            "homepage": "https://platesphp.com",
             "keywords": [
                 "league",
                 "package",
@@ -343,22 +331,22 @@
             ],
             "support": {
                 "issues": "https://github.com/thephpleague/plates/issues",
-                "source": "https://github.com/thephpleague/plates/tree/master"
+                "source": "https://github.com/thephpleague/plates/tree/v3.5.0"
             },
-            "time": "2018-01-31T07:20:23+00:00"
+            "time": "2023-01-16T20:25:45+00:00"
         },
         {
             "name": "matthiasmullie/minify",
-            "version": "1.3.66",
+            "version": "1.3.73",
             "source": {
                 "type": "git",
                 "url": "https://github.com/matthiasmullie/minify.git",
-                "reference": "45fd3b0f1dfa2c965857c6d4a470bea52adc31a6"
+                "reference": "cb7a9297b4ab070909cefade30ee95054d4ae87a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/matthiasmullie/minify/zipball/45fd3b0f1dfa2c965857c6d4a470bea52adc31a6",
-                "reference": "45fd3b0f1dfa2c965857c6d4a470bea52adc31a6",
+                "url": "https://api.github.com/repos/matthiasmullie/minify/zipball/cb7a9297b4ab070909cefade30ee95054d4ae87a",
+                "reference": "cb7a9297b4ab070909cefade30ee95054d4ae87a",
                 "shasum": ""
             },
             "require": {
@@ -367,9 +355,10 @@
                 "php": ">=5.3.0"
             },
             "require-dev": {
-                "friendsofphp/php-cs-fixer": "~2.0",
-                "matthiasmullie/scrapbook": "dev-master",
-                "phpunit/phpunit": ">=4.8"
+                "friendsofphp/php-cs-fixer": ">=2.0",
+                "matthiasmullie/scrapbook": ">=1.3",
+                "phpunit/phpunit": ">=4.8",
+                "squizlabs/php_codesniffer": ">=3.0"
             },
             "suggest": {
                 "psr/cache-implementation": "Cache implementation to use with Minify::cache"
@@ -392,12 +381,12 @@
                 {
                     "name": "Matthias Mullie",
                     "email": "minify@mullie.eu",
-                    "homepage": "http://www.mullie.eu",
+                    "homepage": "https://www.mullie.eu",
                     "role": "Developer"
                 }
             ],
             "description": "CSS & JavaScript minifier, in PHP. Removes whitespace, strips comments, combines files (incl. @import statements and small assets in CSS files), and optimizes/shortens a few common programming patterns.",
-            "homepage": "http://www.minifier.org",
+            "homepage": "https://github.com/matthiasmullie/minify",
             "keywords": [
                 "JS",
                 "css",
@@ -407,23 +396,15 @@
             ],
             "support": {
                 "issues": "https://github.com/matthiasmullie/minify/issues",
-                "source": "https://github.com/matthiasmullie/minify/tree/1.3.66"
+                "source": "https://github.com/matthiasmullie/minify/tree/1.3.73"
             },
             "funding": [
                 {
-                    "url": "https://github.com/[user1",
-                    "type": "github"
-                },
-                {
-                    "url": "https://github.com/matthiasmullie] # Replace with up to 4 GitHub Sponsors-enabled usernames e.g.",
-                    "type": "github"
-                },
-                {
-                    "url": "https://github.com/user2",
+                    "url": "https://github.com/matthiasmullie",
                     "type": "github"
                 }
             ],
-            "time": "2021-01-06T15:18:10+00:00"
+            "time": "2024-03-15T10:27:10+00:00"
         },
         {
             "name": "matthiasmullie/path-converter",
@@ -480,16 +461,16 @@
         },
         {
             "name": "phpmailer/phpmailer",
-            "version": "v6.5.1",
+            "version": "v6.9.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/PHPMailer/PHPMailer.git",
-                "reference": "dd803df5ad7492e1b40637f7ebd258fee5ca7355"
+                "reference": "039de174cd9c17a8389754d3b877a2ed22743e18"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/PHPMailer/PHPMailer/zipball/dd803df5ad7492e1b40637f7ebd258fee5ca7355",
-                "reference": "dd803df5ad7492e1b40637f7ebd258fee5ca7355",
+                "url": "https://api.github.com/repos/PHPMailer/PHPMailer/zipball/039de174cd9c17a8389754d3b877a2ed22743e18",
+                "reference": "039de174cd9c17a8389754d3b877a2ed22743e18",
                 "shasum": ""
             },
             "require": {
@@ -499,22 +480,25 @@
                 "php": ">=5.5.0"
             },
             "require-dev": {
-                "dealerdirect/phpcodesniffer-composer-installer": "^0.7.0",
-                "doctrine/annotations": "^1.2",
-                "php-parallel-lint/php-console-highlighter": "^0.5.0",
-                "php-parallel-lint/php-parallel-lint": "^1.3",
+                "dealerdirect/phpcodesniffer-composer-installer": "^1.0",
+                "doctrine/annotations": "^1.2.6 || ^1.13.3",
+                "php-parallel-lint/php-console-highlighter": "^1.0.0",
+                "php-parallel-lint/php-parallel-lint": "^1.3.2",
                 "phpcompatibility/php-compatibility": "^9.3.5",
                 "roave/security-advisories": "dev-latest",
-                "squizlabs/php_codesniffer": "^3.6.0",
-                "yoast/phpunit-polyfills": "^1.0.0"
+                "squizlabs/php_codesniffer": "^3.7.2",
+                "yoast/phpunit-polyfills": "^1.0.4"
             },
             "suggest": {
+                "decomplexity/SendOauth2": "Adapter for using XOAUTH2 authentication",
                 "ext-mbstring": "Needed to send email in multibyte encoding charset or decode encoded addresses",
+                "ext-openssl": "Needed for secure SMTP sending and DKIM signing",
+                "greew/oauth2-azure-provider": "Needed for Microsoft Azure XOAUTH2 authentication",
                 "hayageek/oauth2-yahoo": "Needed for Yahoo XOAUTH2 authentication",
                 "league/oauth2-google": "Needed for Google XOAUTH2 authentication",
                 "psr/log": "For optional PSR-3 debug logging",
-                "stevenmaguire/oauth2-microsoft": "Needed for Microsoft XOAUTH2 authentication",
-                "symfony/polyfill-mbstring": "To support UTF-8 if the Mbstring PHP extension is not enabled (^1.2)"
+                "symfony/polyfill-mbstring": "To support UTF-8 if the Mbstring PHP extension is not enabled (^1.2)",
+                "thenetworg/oauth2-azure": "Needed for Microsoft XOAUTH2 authentication"
             },
             "type": "library",
             "autoload": {
@@ -546,7 +530,7 @@
             "description": "PHPMailer is a full-featured email creation and transfer class for PHP",
             "support": {
                 "issues": "https://github.com/PHPMailer/PHPMailer/issues",
-                "source": "https://github.com/PHPMailer/PHPMailer/tree/v6.5.1"
+                "source": "https://github.com/PHPMailer/PHPMailer/tree/v6.9.1"
             },
             "funding": [
                 {
@@ -554,7 +538,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2021-08-18T09:14:16+00:00"
+            "time": "2023-11-25T22:23:28+00:00"
         },
         {
             "name": "rosell-dk/image-mime-type-guesser",
@@ -719,15 +703,13 @@
     "packages-dev": [],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": {
-        "league/plates": 15
-    },
+    "stability-flags": [],
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": {
-        "php": "^7.1",
-        "ext-pdo": "^7.1"
+        "php": ">=8.0",
+        "ext-pdo": ">=8.0"
     },
     "platform-dev": [],
-    "plugin-api-version": "2.1.0"
+    "plugin-api-version": "2.6.0"
 }

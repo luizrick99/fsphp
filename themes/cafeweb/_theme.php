@@ -2,6 +2,7 @@
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
+        <meta name="mit" content="2024-04-02T23:03:08-03:00+8724">
     <meta name="viewport" content="width=device-width,initial-scale=1">
 
     <?= $head; ?>
@@ -10,6 +11,13 @@
     <link rel="stylesheet" href="<?= theme("/assets/style.css"); ?>"/>
 </head>
 <body>
+
+<div class="ajax_load">
+    <div class="ajax_load_box">
+        <div class="ajax_load_box_circle"></div>
+        <p class="ajax_load_box_title">Aguarde, carregando...</p>
+    </div>
+</div>
 
 <!--HEADER-->
 <header class="main_header gradient gradient-green">
@@ -25,8 +33,14 @@
                 <a class="link transition radius" title="Home" href="<?= url(); ?>">Home</a>
                 <a class="link transition radius" title="Sobre" href="<?= url("/sobre"); ?>">Sobre</a>
                 <a class="link transition radius" title="Blog" href="<?= url("/blog"); ?>">Blog</a>
-                <a class="link login transition radius icon-sign-in" title="Entrar"
-                   href="<?= url("/entrar"); ?>">Entrar</a>
+
+                <?php if (\Source\Models\Auth::user()): ?>
+                    <a class="link login transition radius icon-coffee" title="Controlar"
+                       href="<?= url("/app"); ?>">Controlar</a>
+                <?php else: ?>
+                    <a class="link login transition radius icon-sign-in" title="Entrar"
+                       href="<?= url("/entrar"); ?>">Entrar</a>
+                <?php endif; ?>
             </div>
         </nav>
     </div>
@@ -91,6 +105,7 @@
     </div>
 </footer>
 
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-53658515-18"></script>
 <script src="<?= theme("/assets/scripts.js"); ?>"></script>
 <?= $v->section("scripts"); ?>
 
